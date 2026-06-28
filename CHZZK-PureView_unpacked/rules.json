@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "priority": 10,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/veta_vas_nofill.json"
+      }
+    },
+    "condition": {
+      "urlFilter": "nam.veta.naver.com/vas",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 10,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/veta_gfp_nofill.json"
+      }
+    },
+    "condition": {
+      "urlFilter": "nam.veta.naver.com/gfp",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 10,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/veta_nac_nofill.json"
+      }
+    },
+    "condition": {
+      "urlFilter": "nam.veta.naver.com/nac",
+      "resourceTypes": [
+        "xmlhttprequest",
+        "script"
+      ]
+    }
+  }
+]

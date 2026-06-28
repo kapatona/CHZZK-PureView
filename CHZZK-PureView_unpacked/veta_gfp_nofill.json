@@ -1,0 +1,12 @@
+{
+  "requestId": "chzzk-pureview-nofill",
+  "head": {
+    "version": "0.0.1",
+    "description": "Naver SSP Waterfall List"
+  },
+  "eventTracking": {},
+  "adUnit": "",
+  "randomNumber": 0,
+  "adDivId": "",
+  "ads": []
+}
